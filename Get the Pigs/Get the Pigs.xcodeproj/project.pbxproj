@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF344BB4281A948700EA5A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF344BB3281A948700EA5A80 /* AppDelegate.swift */; };
+		BF344BB6281A948700EA5A80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF344BB5281A948700EA5A80 /* SceneDelegate.swift */; };
+		BF344BBB281A948700EA5A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF344BB9281A948700EA5A80 /* Main.storyboard */; };
+		BF344BBD281A948800EA5A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF344BBC281A948800EA5A80 /* Assets.xcassets */; };
+		BF344BC0281A948800EA5A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF344BBE281A948800EA5A80 /* LaunchScreen.storyboard */; };
+		BF6EF95E28577870005DC666 /* SoundsPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EF95D28577870005DC666 /* SoundsPlayer.swift */; };
+		BF6EF96228578174005DC666 /* goblinSound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF6EF96128578174005DC666 /* goblinSound3.mp3 */; };
+		BF91A10C282A92C200664FD4 /* extensions+animateStartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF91A10B282A92C200664FD4 /* extensions+animateStartController.swift */; };
+		BFE6EC8C28585AF100A3F378 /* pigSound6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFE6EC8628585AF100A3F378 /* pigSound6.mp3 */; };
+		BFE6EC8D28585AF100A3F378 /* pigSound9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFE6EC8728585AF100A3F378 /* pigSound9.mp3 */; };
+		BFE6EC8E28585AF100A3F378 /* pigSound7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFE6EC8828585AF100A3F378 /* pigSound7.mp3 */; };
+		BFE6EC8F28585AF100A3F378 /* pigSound5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFE6EC8928585AF100A3F378 /* pigSound5.mp3 */; };
+		BFE6EC9028585AF100A3F378 /* pigSound8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFE6EC8A28585AF100A3F378 /* pigSound8.mp3 */; };
+		BFE6EC9128585AF100A3F378 /* pigSound4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFE6EC8B28585AF100A3F378 /* pigSound4.mp3 */; };
+		BFE6EC9328585CA800A3F378 /* pigSound10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFE6EC9228585CA800A3F378 /* pigSound10.mp3 */; };
+		BFEBD95A2824FA4000E06314 /* goblinSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFEBD9542824FA4000E06314 /* goblinSound1.mp3 */; };
+		BFEBD95B2824FA4000E06314 /* pigSound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFEBD9552824FA4000E06314 /* pigSound2.mp3 */; };
+		BFEBD95C2824FA4000E06314 /* pigSound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFEBD9562824FA4000E06314 /* pigSound3.mp3 */; };
+		BFEBD95D2824FA4000E06314 /* goblinSound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFEBD9572824FA4000E06314 /* goblinSound2.mp3 */; };
+		BFEBD95E2824FA4000E06314 /* pigSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFEBD9582824FA4000E06314 /* pigSound1.mp3 */; };
+		BFEBD962282513FD00E06314 /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD961282513FD00E06314 /* StartController.swift */; };
+		BFEBD964282515AE00E06314 /* OriginalPig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD963282515AE00E06314 /* OriginalPig.swift */; };
+		BFEBD966282515E100E06314 /* MouthPig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD965282515E100E06314 /* MouthPig.swift */; };
+		BFEBD968282515F500E06314 /* BackPig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD967282515F500E06314 /* BackPig.swift */; };
+		BFEBD96A28251C5A00E06314 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD96928251C5A00E06314 /* Lock.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF344BB0281A948700EA5A80 /* Get the Pigs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get the Pigs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF344BB3281A948700EA5A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF344BB5281A948700EA5A80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF344BBA281A948700EA5A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF344BBC281A948800EA5A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF344BBF281A948800EA5A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF344BC1281A948800EA5A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6EF95D28577870005DC666 /* SoundsPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsPlayer.swift; sourceTree = "<group>"; };
+		BF6EF96128578174005DC666 /* goblinSound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goblinSound3.mp3; sourceTree = "<group>"; };
+		BF91A10B282A92C200664FD4 /* extensions+animateStartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extensions+animateStartController.swift"; sourceTree = "<group>"; };
+		BFE6EC8628585AF100A3F378 /* pigSound6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound6.mp3; sourceTree = "<group>"; };
+		BFE6EC8728585AF100A3F378 /* pigSound9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound9.mp3; sourceTree = "<group>"; };
+		BFE6EC8828585AF100A3F378 /* pigSound7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound7.mp3; sourceTree = "<group>"; };
+		BFE6EC8928585AF100A3F378 /* pigSound5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound5.mp3; sourceTree = "<group>"; };
+		BFE6EC8A28585AF100A3F378 /* pigSound8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound8.mp3; sourceTree = "<group>"; };
+		BFE6EC8B28585AF100A3F378 /* pigSound4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound4.mp3; sourceTree = "<group>"; };
+		BFE6EC9228585CA800A3F378 /* pigSound10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound10.mp3; sourceTree = "<group>"; };
+		BFEBD9542824FA4000E06314 /* goblinSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goblinSound1.mp3; sourceTree = "<group>"; };
+		BFEBD9552824FA4000E06314 /* pigSound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound2.mp3; sourceTree = "<group>"; };
+		BFEBD9562824FA4000E06314 /* pigSound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound3.mp3; sourceTree = "<group>"; };
+		BFEBD9572824FA4000E06314 /* goblinSound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goblinSound2.mp3; sourceTree = "<group>"; };
+		BFEBD9582824FA4000E06314 /* pigSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound1.mp3; sourceTree = "<group>"; };
+		BFEBD961282513FD00E06314 /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
+		BFEBD963282515AE00E06314 /* OriginalPig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalPig.swift; sourceTree = "<group>"; };
+		BFEBD965282515E100E06314 /* MouthPig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouthPig.swift; sourceTree = "<group>"; };
+		BFEBD967282515F500E06314 /* BackPig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackPig.swift; sourceTree = "<group>"; };
+		BFEBD96928251C5A00E06314 /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF344BAD281A948700EA5A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF344BA7281A948700EA5A80 = {
+			isa = PBXGroup;
+			children = (
+				BF344BB2281A948700EA5A80 /* Get the Pigs */,
+				BF344BB1281A948700EA5A80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF344BB1281A948700EA5A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF344BB0281A948700EA5A80 /* Get the Pigs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF344BB2281A948700EA5A80 /* Get the Pigs */ = {
+			isa = PBXGroup;
+			children = (
+				BFEBD9502824F82700E06314 /* Controllers */,
+				BFEBD96B28251CC000E06314 /* Extensions */,
+				BFEF8E47285789AE004EE7F2 /* Helper */,
+				BFEBD9522824FA1C00E06314 /* Sounds */,
+				BF344BC7281A949E00EA5A80 /* Resourse */,
+				BF344BC1281A948800EA5A80 /* Info.plist */,
+			);
+			path = "Get the Pigs";
+			sourceTree = "<group>";
+		};
+		BF344BC7281A949E00EA5A80 /* Resourse */ = {
+			isa = PBXGroup;
+			children = (
+				BF344BB3281A948700EA5A80 /* AppDelegate.swift */,
+				BF344BB5281A948700EA5A80 /* SceneDelegate.swift */,
+				BF344BB9281A948700EA5A80 /* Main.storyboard */,
+				BF344BBC281A948800EA5A80 /* Assets.xcassets */,
+				BF344BBE281A948800EA5A80 /* LaunchScreen.storyboard */,
+			);
+			path = Resourse;
+			sourceTree = "<group>";
+		};
+		BFEBD9502824F82700E06314 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFEBD961282513FD00E06314 /* StartController.swift */,
+				BFEBD963282515AE00E06314 /* OriginalPig.swift */,
+				BFEBD965282515E100E06314 /* MouthPig.swift */,
+				BFEBD967282515F500E06314 /* BackPig.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFEBD9522824FA1C00E06314 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BFEBD9542824FA4000E06314 /* goblinSound1.mp3 */,
+				BFEBD9572824FA4000E06314 /* goblinSound2.mp3 */,
+				BF6EF96128578174005DC666 /* goblinSound3.mp3 */,
+				BFEBD9582824FA4000E06314 /* pigSound1.mp3 */,
+				BFEBD9552824FA4000E06314 /* pigSound2.mp3 */,
+				BFEBD9562824FA4000E06314 /* pigSound3.mp3 */,
+				BFE6EC8B28585AF100A3F378 /* pigSound4.mp3 */,
+				BFE6EC8928585AF100A3F378 /* pigSound5.mp3 */,
+				BFE6EC8628585AF100A3F378 /* pigSound6.mp3 */,
+				BFE6EC8828585AF100A3F378 /* pigSound7.mp3 */,
+				BFE6EC8A28585AF100A3F378 /* pigSound8.mp3 */,
+				BFE6EC8728585AF100A3F378 /* pigSound9.mp3 */,
+				BFE6EC9228585CA800A3F378 /* pigSound10.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		BFEBD96B28251CC000E06314 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF91A10B282A92C200664FD4 /* extensions+animateStartController.swift */,
+				BFEBD96928251C5A00E06314 /* Lock.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BFEF8E47285789AE004EE7F2 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BF6EF95D28577870005DC666 /* SoundsPlayer.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF344BAF281A948700EA5A80 /* Get the Pigs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF344BC4281A948800EA5A80 /* Build configuration list for PBXNativeTarget "Get the Pigs" */;
+			buildPhases = (
+				BF344BAC281A948700EA5A80 /* Sources */,
+				BF344BAD281A948700EA5A80 /* Frameworks */,
+				BF344BAE281A948700EA5A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Get the Pigs";
+			productName = "Get the Pigs";
+			productReference = BF344BB0281A948700EA5A80 /* Get the Pigs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF344BA8281A948700EA5A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BF344BAF281A948700EA5A80 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BF344BAB281A948700EA5A80 /* Build configuration list for PBXProject "Get the Pigs" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF344BA7281A948700EA5A80;
+			productRefGroup = BF344BB1281A948700EA5A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF344BAF281A948700EA5A80 /* Get the Pigs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF344BAE281A948700EA5A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFEBD95B2824FA4000E06314 /* pigSound2.mp3 in Resources */,
+				BF344BC0281A948800EA5A80 /* LaunchScreen.storyboard in Resources */,
+				BFEBD95E2824FA4000E06314 /* pigSound1.mp3 in Resources */,
+				BFE6EC9128585AF100A3F378 /* pigSound4.mp3 in Resources */,
+				BFE6EC8E28585AF100A3F378 /* pigSound7.mp3 in Resources */,
+				BFE6EC8F28585AF100A3F378 /* pigSound5.mp3 in Resources */,
+				BFE6EC9328585CA800A3F378 /* pigSound10.mp3 in Resources */,
+				BF344BBD281A948800EA5A80 /* Assets.xcassets in Resources */,
+				BFE6EC9028585AF100A3F378 /* pigSound8.mp3 in Resources */,
+				BFE6EC8C28585AF100A3F378 /* pigSound6.mp3 in Resources */,
+				BFE6EC8D28585AF100A3F378 /* pigSound9.mp3 in Resources */,
+				BFEBD95D2824FA4000E06314 /* goblinSound2.mp3 in Resources */,
+				BFEBD95C2824FA4000E06314 /* pigSound3.mp3 in Resources */,
+				BF344BBB281A948700EA5A80 /* Main.storyboard in Resources */,
+				BFEBD95A2824FA4000E06314 /* goblinSound1.mp3 in Resources */,
+				BF6EF96228578174005DC666 /* goblinSound3.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF344BAC281A948700EA5A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF91A10C282A92C200664FD4 /* extensions+animateStartController.swift in Sources */,
+				BF344BB4281A948700EA5A80 /* AppDelegate.swift in Sources */,
+				BF6EF95E28577870005DC666 /* SoundsPlayer.swift in Sources */,
+				BFEBD968282515F500E06314 /* BackPig.swift in Sources */,
+				BFEBD962282513FD00E06314 /* StartController.swift in Sources */,
+				BFEBD96A28251C5A00E06314 /* Lock.swift in Sources */,
+				BF344BB6281A948700EA5A80 /* SceneDelegate.swift in Sources */,
+				BFEBD966282515E100E06314 /* MouthPig.swift in Sources */,
+				BFEBD964282515AE00E06314 /* OriginalPig.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF344BB9281A948700EA5A80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF344BBA281A948700EA5A80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF344BBE281A948800EA5A80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF344BBF281A948800EA5A80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF344BC2281A948800EA5A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF344BC3281A948800EA5A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF344BC5281A948800EA5A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7394NAD58Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Get the Pigs/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Koval-Mark.Get-the-Pigs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BF344BC6281A948800EA5A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7394NAD58Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Get the Pigs/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Koval-Mark.Get-the-Pigs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF344BAB281A948700EA5A80 /* Build configuration list for PBXProject "Get the Pigs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF344BC2281A948800EA5A80 /* Debug */,
+				BF344BC3281A948800EA5A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF344BC4281A948800EA5A80 /* Build configuration list for PBXNativeTarget "Get the Pigs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF344BC5281A948800EA5A80 /* Debug */,
+				BF344BC6281A948800EA5A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF344BA8281A948700EA5A80 /* Project object */;
+}
