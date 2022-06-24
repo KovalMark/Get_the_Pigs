@@ -6,8 +6,8 @@ Hi! I am pleased to present you the Get the Pigs app. This application replaces 
 
 ### Start Screen
 + You can choose the part of the pig you like, with the sounds characteristic of this part.
-    + ![loadScreen](https://github.com/KovalMark/ScreenshotApp/blob/master/GtP/StartrController.png)
+    + ![loadScreen](https://github.com/KovalMark/ScreenshotApp/blob/master/GtP/StartrControllerlOWsize.png)
 
 ### Pig's screens
 + When you hear a great joke from your friend, click on the pig to show your approval.
-    + ![loadScreen](https://github.com/KovalMark/ScreenshotApp/blob/master/GtP/PigController.png)
+    + ![loadScreen](https://github.com/KovalMark/ScreenshotApp/blob/master/GtP/PigControllerLowSize.png)

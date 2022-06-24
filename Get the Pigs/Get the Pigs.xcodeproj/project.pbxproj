@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF2FF31F2864A7AE0003710B /* PigAnimatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2FF31E2864A7AE0003710B /* PigAnimatable.swift */; };
+		BF2FF3212864BBD20003710B /* extensions+customNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2FF3202864BBD20003710B /* extensions+customNavigationBar.swift */; };
 		BF344BB4281A948700EA5A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF344BB3281A948700EA5A80 /* AppDelegate.swift */; };
 		BF344BB6281A948700EA5A80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF344BB5281A948700EA5A80 /* SceneDelegate.swift */; };
-		BF344BBB281A948700EA5A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF344BB9281A948700EA5A80 /* Main.storyboard */; };
 		BF344BBD281A948800EA5A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF344BBC281A948800EA5A80 /* Assets.xcassets */; };
 		BF344BC0281A948800EA5A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF344BBE281A948800EA5A80 /* LaunchScreen.storyboard */; };
 		BF6EF95E28577870005DC666 /* SoundsPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EF95D28577870005DC666 /* SoundsPlayer.swift */; };
@@ -28,17 +29,18 @@
 		BFEBD95D2824FA4000E06314 /* goblinSound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFEBD9572824FA4000E06314 /* goblinSound2.mp3 */; };
 		BFEBD95E2824FA4000E06314 /* pigSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BFEBD9582824FA4000E06314 /* pigSound1.mp3 */; };
 		BFEBD962282513FD00E06314 /* StartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD961282513FD00E06314 /* StartController.swift */; };
-		BFEBD964282515AE00E06314 /* OriginalPig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD963282515AE00E06314 /* OriginalPig.swift */; };
-		BFEBD966282515E100E06314 /* MouthPig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD965282515E100E06314 /* MouthPig.swift */; };
-		BFEBD968282515F500E06314 /* BackPig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD967282515F500E06314 /* BackPig.swift */; };
+		BFEBD964282515AE00E06314 /* BodyPigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD963282515AE00E06314 /* BodyPigController.swift */; };
+		BFEBD966282515E100E06314 /* MouthPigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD965282515E100E06314 /* MouthPigController.swift */; };
+		BFEBD968282515F500E06314 /* BackPigController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD967282515F500E06314 /* BackPigController.swift */; };
 		BFEBD96A28251C5A00E06314 /* Lock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEBD96928251C5A00E06314 /* Lock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF2FF31E2864A7AE0003710B /* PigAnimatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PigAnimatable.swift; sourceTree = "<group>"; };
+		BF2FF3202864BBD20003710B /* extensions+customNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extensions+customNavigationBar.swift"; sourceTree = "<group>"; };
 		BF344BB0281A948700EA5A80 /* Get the Pigs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get the Pigs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF344BB3281A948700EA5A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF344BB5281A948700EA5A80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF344BBA281A948700EA5A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF344BBC281A948800EA5A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF344BBF281A948800EA5A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF344BC1281A948800EA5A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,9 +60,9 @@
 		BFEBD9572824FA4000E06314 /* goblinSound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = goblinSound2.mp3; sourceTree = "<group>"; };
 		BFEBD9582824FA4000E06314 /* pigSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pigSound1.mp3; sourceTree = "<group>"; };
 		BFEBD961282513FD00E06314 /* StartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartController.swift; sourceTree = "<group>"; };
-		BFEBD963282515AE00E06314 /* OriginalPig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalPig.swift; sourceTree = "<group>"; };
-		BFEBD965282515E100E06314 /* MouthPig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouthPig.swift; sourceTree = "<group>"; };
-		BFEBD967282515F500E06314 /* BackPig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackPig.swift; sourceTree = "<group>"; };
+		BFEBD963282515AE00E06314 /* BodyPigController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyPigController.swift; sourceTree = "<group>"; };
+		BFEBD965282515E100E06314 /* MouthPigController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouthPigController.swift; sourceTree = "<group>"; };
+		BFEBD967282515F500E06314 /* BackPigController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackPigController.swift; sourceTree = "<group>"; };
 		BFEBD96928251C5A00E06314 /* Lock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,8 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				BFEBD9502824F82700E06314 /* Controllers */,
-				BFEBD96B28251CC000E06314 /* Extensions */,
-				BFEF8E47285789AE004EE7F2 /* Helper */,
+				BFBCE8C528638EEF00DB72FF /* General */,
 				BFEBD9522824FA1C00E06314 /* Sounds */,
 				BF344BC7281A949E00EA5A80 /* Resourse */,
 				BF344BC1281A948800EA5A80 /* Info.plist */,
@@ -109,20 +110,37 @@
 			children = (
 				BF344BB3281A948700EA5A80 /* AppDelegate.swift */,
 				BF344BB5281A948700EA5A80 /* SceneDelegate.swift */,
-				BF344BB9281A948700EA5A80 /* Main.storyboard */,
 				BF344BBC281A948800EA5A80 /* Assets.xcassets */,
 				BF344BBE281A948800EA5A80 /* LaunchScreen.storyboard */,
 			);
 			path = Resourse;
 			sourceTree = "<group>";
 		};
+		BFBCE8C528638EEF00DB72FF /* General */ = {
+			isa = PBXGroup;
+			children = (
+				BFBCE8C628638FA400DB72FF /* Protocols */,
+				BFEBD96B28251CC000E06314 /* Extensions */,
+				BFEF8E47285789AE004EE7F2 /* Helper */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		BFBCE8C628638FA400DB72FF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BF2FF31E2864A7AE0003710B /* PigAnimatable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		BFEBD9502824F82700E06314 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				BFEBD961282513FD00E06314 /* StartController.swift */,
-				BFEBD963282515AE00E06314 /* OriginalPig.swift */,
-				BFEBD965282515E100E06314 /* MouthPig.swift */,
-				BFEBD967282515F500E06314 /* BackPig.swift */,
+				BFEBD963282515AE00E06314 /* BodyPigController.swift */,
+				BFEBD965282515E100E06314 /* MouthPigController.swift */,
+				BFEBD967282515F500E06314 /* BackPigController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -151,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				BF91A10B282A92C200664FD4 /* extensions+animateStartController.swift */,
+				BF2FF3202864BBD20003710B /* extensions+customNavigationBar.swift */,
 				BFEBD96928251C5A00E06314 /* Lock.swift */,
 			);
 			path = Extensions;
@@ -235,7 +254,6 @@
 				BFE6EC8D28585AF100A3F378 /* pigSound9.mp3 in Resources */,
 				BFEBD95D2824FA4000E06314 /* goblinSound2.mp3 in Resources */,
 				BFEBD95C2824FA4000E06314 /* pigSound3.mp3 in Resources */,
-				BF344BBB281A948700EA5A80 /* Main.storyboard in Resources */,
 				BFEBD95A2824FA4000E06314 /* goblinSound1.mp3 in Resources */,
 				BF6EF96228578174005DC666 /* goblinSound3.mp3 in Resources */,
 			);
@@ -248,29 +266,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2FF31F2864A7AE0003710B /* PigAnimatable.swift in Sources */,
 				BF91A10C282A92C200664FD4 /* extensions+animateStartController.swift in Sources */,
 				BF344BB4281A948700EA5A80 /* AppDelegate.swift in Sources */,
 				BF6EF95E28577870005DC666 /* SoundsPlayer.swift in Sources */,
-				BFEBD968282515F500E06314 /* BackPig.swift in Sources */,
+				BF2FF3212864BBD20003710B /* extensions+customNavigationBar.swift in Sources */,
+				BFEBD968282515F500E06314 /* BackPigController.swift in Sources */,
 				BFEBD962282513FD00E06314 /* StartController.swift in Sources */,
 				BFEBD96A28251C5A00E06314 /* Lock.swift in Sources */,
 				BF344BB6281A948700EA5A80 /* SceneDelegate.swift in Sources */,
-				BFEBD966282515E100E06314 /* MouthPig.swift in Sources */,
-				BFEBD964282515AE00E06314 /* OriginalPig.swift in Sources */,
+				BFEBD966282515E100E06314 /* MouthPigController.swift in Sources */,
+				BFEBD964282515AE00E06314 /* BodyPigController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BF344BB9281A948700EA5A80 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF344BBA281A948700EA5A80 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BF344BBE281A948800EA5A80 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -410,7 +422,6 @@
 				INFOPLIST_FILE = "Get the Pigs/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -439,7 +450,6 @@
 				INFOPLIST_FILE = "Get the Pigs/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
